@@ -54,6 +54,17 @@ a{
     -webkit-text-fill-color: transparent;
 }
 
+.fa-bars{
+    font-size: 1.4rem;
+    font-weight: 900;
+    transition: all .4s ease;
+}
+
+.fa-bars:hover{
+    color: var(--golden-color);
+    transition: all .4s ease;
+}
+
 a.nav-link.active{
     background: -webkit-linear-gradient(var(--yellow-color), var(--golden-color));
     -webkit-background-clip: text;
@@ -301,4 +312,50 @@ span{
 }
 
 /*=============================== Services Section Ends ==================================*/
+
+
+
+/*=============================== About Section ==================================*/
+.cLang{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.framLib{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+/*#about*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    #about{
+        width: 100vw;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #about{
+        width: 100vw;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #about{
+        width: 100vw;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #about{
+        width: 100vw;
+    }
+}
+
+/*=============================== About Section Ends ==================================*/
 
