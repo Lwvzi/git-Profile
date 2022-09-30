@@ -262,5 +262,37 @@ span{
     color: var(--para-color)
 }
 
+/*#services*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    #services{
+        width: 100vw;
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #services{
+        width: 100vw;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #services{
+        width: 100vw;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #services{
+        width: 100vw;
+    }
+}
+
 /*=============================== Services Section Ends ==================================*/
 
