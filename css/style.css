@@ -48,10 +48,15 @@ a{
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.103);
 }
 
+.navbar-brand{
+    transition: all .4s ease-in-out;
+}
+
 .navbar-brand:hover{
     background: -webkit-linear-gradient(360deg, rgb(255, 221, 0), var(--golden-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: all .4s ease-in-out;
 }
 
 .fa-bars{
@@ -326,6 +331,41 @@ span{
     font-weight: 800;
 }
 
+/*bio carousel styling*/
+
+.project{
+    position: relative;
+    overflow: hidden;
+}
+
+.project img{
+    transition: all 1s ease;
+}
+
+.project a{
+    width: 121px;
+    height: 121px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 100px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.project:hover img{
+    transform: scale(1.4);
+}
+
+.project:hover a{
+    visibility: visible;
+    opacity: 1;
+}
 
 /*#about*/
 /* Small devices (landscape phones, 576px and up)*/
@@ -357,5 +397,88 @@ span{
     }
 }
 
+
+/*#bio*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    #about{
+        width: 100vw;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #bio{
+        width: 100vw;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #bio{
+        width: 100vw;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #bio{
+        width: 100vw;
+    }
+}
+
 /*=============================== About Section Ends ==================================*/
+
+
+
+/*=============================== Contact Section Starts ==================================*/
+
+.btn-form{
+    background: linear-gradient(360deg, var(--golden-color), var(--gold-color));
+    border-radius: 100px;
+    border: none;
+    font-weight: 800;
+    color: #fff;
+    transition: all .4s ease;
+}
+
+.btn-form:hover{
+    transform: translateY(-4px);
+    background: linear-gradient(90deg, var(--gold-color), var(--golden-color));
+    transition: all .4s ease;
+}
+
+
+/*#contact*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    #contact{
+        width: 100vw;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #contact{
+        width: 100vw;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #contact{
+        width: 100vw;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #contact{
+        width: 100vw;
+    }
+}
+
+/*=============================== Contact Section Ends ==================================*/
 
