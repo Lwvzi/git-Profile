@@ -331,7 +331,16 @@ span{
     font-weight: 800;
 }
 
-/*bio carousel styling*/
+
+/*bio section styling */
+
+.bio-content p{
+    font-weight: 700;
+    border-top: 3px solid var(--black-color);
+    border-bottom: 3px solid var(--black-color);
+}
+
+/*skill carousel styling*/
 
 .project{
     position: relative;
@@ -401,7 +410,7 @@ span{
 /*#bio*/
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    #about{
+    #bio{
         width: 100vw;
     }
 
@@ -427,6 +436,38 @@ span{
         width: 100vw;
     }
 }
+
+
+/*#bio*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    #skills{
+        width: 100vw;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #skills{
+        width: 100vw;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #skills{
+        width: 100vw;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #skills{
+        width: 100vw;
+    }
+}
+
 
 /*=============================== About Section Ends ==================================*/
 
@@ -481,4 +522,7 @@ span{
 }
 
 /*=============================== Contact Section Ends ==================================*/
+
+
+
 
