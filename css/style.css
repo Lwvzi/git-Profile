@@ -524,5 +524,64 @@ span{
 /*=============================== Contact Section Ends ==================================*/
 
 
+/*=============================== Footer Section Starts ==================================*/
+/*footer*/
+footer{
+    background: linear-gradient(360deg, var(--yellow-color), rgb(255, 221, 0));
+    color:white;
+    width: 100vw;
+}
+
+footer p{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.social-links i{
+    font-size: 1.2rem;
+    color: var(--black-color);
+    transition: all .4s ease;
+}
+
+.social-links i:hover{
+    color: var(--golden-color);
+    transition: all .4s ease;
+}
+
+
+
+/*footer*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    footer{
+        width: 100vw;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    footer{
+        width: 100vw;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    footer{
+        width: 100vw;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    footer{
+        width: 100vw;
+    }
+}
+
+/*=============================== Footer Section Ends ==================================*/
+
+
 
 
